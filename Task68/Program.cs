@@ -1,13 +1,13 @@
 ﻿
+int numberM = Fullnumb("Введите начальное число m");
+int numberN = Fullnumb("Введите начальное число n");
+
 int Fullnumb(string text)
 {
 Console.Write(text + ": ");
 int numb = Convert.ToInt32(Console.ReadLine());
 return numb;
 }
-
-int numberM = Fullnumb("Введите начальное число m");
-int numberN = Fullnumb("Введите начальное число n");
 
 int AFunct(int numberM, int numberN)
 {
